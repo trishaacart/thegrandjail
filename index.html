@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Grand Jail Restaurant | Rajgir's Themed Restaurant & Online Ordering</title>
+  <meta name="description" content="Experience unique jail-themed dining and superfast food delivery in Rajgir, Bihar. Dine inside authentic prison cells, enjoy North Indian, Handi Mutton, Litti Chokha & Chinese specialties.">
+  <meta name="keywords" content="The Grand Jail Restaurant, Rajgir restaurant, restaurant in Rajgir, food delivery Rajgir, Rajgir themed restaurant, Handi Mutton Rajgir, Litti Chokha Rajgir">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER / NAVIGATION
+       ====================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="#home" class="brand-logo" id="brandLogo">
+        <img src="images/logo.png" alt="The Grand Jail Restaurant Logo" class="brand-logo-img">
+        <div class="brand-text-wrap">
+          <span class="brand-title">THE GRAND <span>JAIL</span></span>
+          <span class="brand-tagline">Restaurant • Rajgir</span>
+        </div>
+      </a>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-page="home"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#menu" class="nav-link" data-page="menu"><i class="fa-solid fa-utensils"></i> Menu & Order</a>
+        <a href="#reserve" class="nav-link" data-page="reserve"><i class="fa-solid fa-calendar-check"></i> Book a Cell</a>
+        <a href="#about" class="nav-link" data-page="about"><i class="fa-solid fa-shield-halved"></i> About Us</a>
+        <a href="#gallery" class="nav-link" data-page="gallery"><i class="fa-solid fa-images"></i> Gallery</a>
+        <a href="#contact" class="nav-link" data-page="contact"><i class="fa-solid fa-location-dot"></i> Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Customer Login / Profile Button -->
+        <button class="btn-auth-nav" id="headerAuthBtn" aria-label="Customer Login">
+          <i class="fa-solid fa-user-lock"></i>
+          <span>Login</span>
+        </button>
+        <button class="btn-profile-nav" id="headerProfileBtn" style="display: none;" aria-label="Customer Profile">
+          <div class="profile-avatar-circle" id="headerAvatarCircle">U</div>
+          <span id="headerUserNameText">Profile</span>
+        </button>
+
+        <!-- Cart Trigger Button -->
+        <button class="cart-btn" id="headerCartBtn" aria-label="View Cart" title="View Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="cart-badge" id="cartBadgeCount">0</span>
+        </button>
+
+        <!-- Book a Table CTA -->
+        <a href="#reserve" class="btn-book-nav">
+          <i class="fa-solid fa-lock"></i>
+          <span>Book a Cell</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle-btn" id="mobileMenuBtn" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT VIEWPORT
+       ====================================================================== -->
+  <main id="mainContent">
+
+    <!-- ------------------------------------------------------------------
+         SECTION: HOME
+         ------------------------------------------------------------------ -->
+    <section class="page-section active" id="homeSection">
+      <!-- Hero Banner -->
+      <div class="hero-section">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-jail-bars"></div>
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-tag">
+              <i class="fa-solid fa-star text-gold"></i>
+              <span>Rajgir's Premier Themed Dining & Delivery</span>
+            </div>
+            <h1 class="hero-title">
+              Taste The Freedom Behind <span class="glow-gold">The Bars</span>
+            </h1>
+            <p class="hero-desc">
+              Experience dining inside authentic prison cells with iron bars, warden-style hospitality, and mouth-watering North Indian, Handi Mutton, Bihari Litti Chokha & Tandoori specialties in the historic city of Rajgir.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#menu" class="btn-primary">
+                <i class="fa-solid fa-motorcycle"></i>
+                <span>Order Food Online</span>
+              </a>
+              <a href="#reserve" class="btn-secondary">
+                <i class="fa-solid fa-key"></i>
+                <span>Reserve A Jail Cell</span>
+              </a>
+            </div>
+
+            <!-- Highlights Strip -->
+            <div class="hero-features">
+              <div class="feature-pill">
+                <div class="icon"><i class="fa-solid fa-shield"></i></div>
+                <div>
+                  <h4>Cell Dining</h4>
+                  <p>Private jail cells & booths</p>
+                </div>
+              </div>
+              <div class="feature-pill">
+                <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
+                <div>
+                  <h4>30-45m Delivery</h4>
+                  <p>Across Rajgir hotels & homes</p>
+                </div>
+              </div>
+              <div class="feature-pill">
+                <div class="icon"><i class="fa-solid fa-camera-retro"></i></div>
+                <div>
+                  <h4>Photo Booth</h4>
+                  <p>Inmate boards & handcuffs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Highlights Section -->
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-lock-open"></i> The Experience</span>
+          <h2 class="section-title">Why Dine At <span>The Grand Jail</span>?</h2>
+          <p class="section-subtitle">
+            Not just another meal—a thrilling culinary escape packed with prison vibes, photo moments, and culinary magic.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <div class="experience-card">
+            <div class="exp-icon-wrap">
+              <i class="fa-solid fa-dungeon"></i>
+            </div>
+            <h3>Authentic Prison Cells</h3>
+            <p>
+              Sit behind heavy iron bars inside Solitary Cells, Central Lockup Wards, or the VIP High-Security Cell designed for friends, families, and couples.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <div class="exp-icon-wrap">
+              <i class="fa-solid fa-fire-burner"></i>
+            </div>
+            <h3>Royal Handi & Dum Flavors</h3>
+            <p>
+              Savor slow-cooked Champaran Ahuna Handi Mutton, velvety Dal Makhani, Desi Ghee Litti Chokha, and smoky charcoal kebabs prepared by expert chefs.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <div class="exp-icon-wrap">
+              <i class="fa-solid fa-id-card-clip"></i>
+            </div>
+            <h3>Inmate Mugshot Fun</h3>
+            <p>
+              Hold convict slates ("Qaidi No. 420"), wear jail striped caps, click photos with handcuffs, and create viral reels and family memories.
+            </p>
+          </div>
+
+          <div class="experience-card">
+            <div class="exp-icon-wrap">
+              <i class="fa-solid fa-bell-concierge"></i>
+            </div>
+            <h3>Superfast Rajgir Delivery</h3>
+            <p>
+              Staying at a hotel, resort, or home in Rajgir? Get piping hot jailhouse delicacies delivered directly to your doorstep in 30 to 45 minutes!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chef's Specials Banner Grid -->
+      <div class="section" style="background: rgba(18, 21, 28, 0.6); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-badge"><i class="fa-solid fa-fire"></i> Most Wanted</span>
+            <h2 class="section-title">Inmates' <span>Favorite Dishes</span></h2>
+            <p class="section-subtitle">The most ordered signature delicacies trending right now in Rajgir.</p>
+          </div>
+
+          <!-- Featured Dishes Container (Populated via JS) -->
+          <div class="menu-grid" id="featuredDishesGrid">
+            <!-- Dynamic inject from JS -->
+          </div>
+
+          <div style="text-align: center; margin-top: 3rem;">
+            <a href="#menu" class="btn-primary">
+              <i class="fa-solid fa-utensils"></i>
+              <span>Explore Complete Menu & Order</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rajgir Heritage Note -->
+      <div class="section container">
+        <div style="background: linear-gradient(135deg, #1c150b 0%, #151821 100%); border: 1px solid var(--border-gold); border-radius: var(--radius-lg); padding: 3rem 2rem; text-align: center; position: relative; overflow: hidden;">
+          <div style="position: absolute; top: -30px; right: -30px; font-size: 15rem; color: rgba(245, 158, 11, 0.03); pointer-events: none; font-family: var(--font-heading);">JAIL</div>
+          <span class="section-badge"><i class="fa-solid fa-landmark"></i> Rajgir, Bihar</span>
+          <h2 style="font-family: var(--font-heading); font-size: clamp(1.8rem, 3.5vw, 2.6rem); color: #fff; margin: 1rem 0;">
+            A Modern Culinary Gem in the Historic Land of Rajgir
+          </h2>
+          <p style="color: var(--text-secondary); max-width: 780px; margin: 0 auto 2rem; font-size: 1.05rem;">
+            Whether you are visiting the famous Glass Bridge, Vishwa Shanti Stupa, Ropeway, or ancient Hot Springs, complete your trip with a celebratory feast at The Grand Jail Restaurant!
+          </p>
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <a href="#reserve" class="btn-primary"><i class="fa-solid fa-chair"></i> Book A Table Now</a>
+            <a href="https://maps.app.goo.gl/Ts6pMgGVRvF25x2A7" target="_blank" rel="noopener" class="btn-secondary"><i class="fa-solid fa-map-location-dot"></i> Get Directions</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services & Amenities Section -->
+      <div class="section" style="background: rgba(18,21,28,0.7); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+        <div class="container">
+          <div class="section-title-wrap">
+            <span class="section-badge"><i class="fa-solid fa-list-check"></i> What We Offer</span>
+            <h2 class="section-title">Services &amp; <span>Amenities</span></h2>
+            <p class="section-subtitle">Everything we do to make your visit or delivery experience comfortable and memorable.</p>
+          </div>
+          <div class="services-highlights-grid" id="servicesGrid">
+            <!-- Dynamically populated from data.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-comments"></i> Inmate Testimonials</span>
+          <h2 class="section-title">What Our <span>Guests Say</span></h2>
+          <p class="section-subtitle">Real reviews from Rajgir locals, family diners, and visiting tourists.</p>
+        </div>
+
+        <!-- Review Action Bar -->
+        <div class="reviews-action-bar" style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-bottom:2rem;">
+          <button class="btn-write-review" id="openWriteReviewBtn">
+            <i class="fa-solid fa-pen-to-square"></i> Write a Review
+          </button>
+          <a href="https://maps.app.goo.gl/Ts6pMgGVRvF25x2A7" target="_blank" rel="noopener" class="btn-google-review-external">
+            <i class="fa-brands fa-google"></i> Review Us on Google
+          </a>
+        </div>
+
+        <div class="testimonials-grid" id="testimonialsGrid">
+          <!-- Populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         SECTION: MENU & ONLINE ORDERING
+         ------------------------------------------------------------------ -->
+    <section class="page-section" id="menuSection" style="display: none;">
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-book-open"></i> Full Menu</span>
+          <h2 class="section-title">The Grand Jail <span>Menu & Delivery</span></h2>
+          <p class="section-subtitle">
+            Order for fast home delivery in Rajgir or takeaway. Add items to your cart, customize quantity, and enjoy!
+          </p>
+        </div>
+
+        <!-- Menu Search & Filter Bar -->
+        <div class="menu-controls">
+          <div class="menu-search-bar">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="menuSearchInput" placeholder="Search dishes (e.g., Handi Mutton, Paneer, Biryani, Naan)..." autocomplete="off">
+            <button id="clearSearchBtn" style="background: none; color: var(--text-muted); display: none;" aria-label="Clear Search"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+
+          <!-- Diet & Attribute Filters -->
+          <div class="filter-tags-wrap">
+            <button class="filter-btn active" data-diet="all">
+              <i class="fa-solid fa-border-all"></i> All Dishes
+            </button>
+            <button class="filter-btn" data-diet="veg">
+              <span class="diet-dot veg"></span> Pure Veg
+            </button>
+            <button class="filter-btn" data-diet="nonveg">
+              <span class="diet-dot non-veg"></span> Non-Veg
+            </button>
+            <button class="filter-btn" data-diet="bestseller">
+              <i class="fa-solid fa-crown text-gold"></i> Bestsellers
+            </button>
+          </div>
+
+          <!-- Horizontal Category Tabs -->
+          <div class="category-tabs-container">
+            <div class="category-tabs" id="categoryTabsWrap">
+              <!-- Dynamically populated from RESTAURANT_DATA.categories -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item Cards Grid -->
+        <div class="menu-grid" id="menuItemsGrid">
+          <!-- Dynamically populated from js/data.js -->
+        </div>
+
+        <!-- Empty search state -->
+        <div class="no-results-box" id="noMenuResults" style="display: none;">
+          <i class="fa-solid fa-plate-wheat"></i>
+          <h3>No matching dishes found</h3>
+          <p>Try searching for a different keyword or reset filters to explore our full menu.</p>
+          <button class="btn-secondary" id="resetMenuFiltersBtn" style="margin-top: 1rem;">
+            Reset All Filters
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         SECTION: BOOK A CELL / TABLE RESERVATION
+         ------------------------------------------------------------------ -->
+    <section class="page-section" id="reserveSection" style="display: none;">
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-calendar-days"></i> Online Booking</span>
+          <h2 class="section-title">Reserve Your <span>Prison Cell</span></h2>
+          <p class="section-subtitle">
+            Skip the waiting queue! Book your preferred themed cell for family dinners, dates, birthday parties, or tour groups.
+          </p>
+        </div>
+
+        <div class="reservation-layout">
+          <!-- Left: Cell Type Selection Cards -->
+          <div class="cell-info-side">
+            <h3 style="font-family: var(--font-heading); color: #fff; font-size: 1.35rem; margin-bottom: 0.5rem;">
+              Step 1: Choose Your Seating Style
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 1rem;">
+              Select the cell type that best suits your party size and occasion:
+            </p>
+
+            <div id="cellOptionsContainer" style="display: flex; flex-direction: column; gap: 1rem;">
+              <!-- Populated from data.js -->
+            </div>
+          </div>
+
+          <!-- Right: Interactive Booking Form -->
+          <div class="reservation-form-wrap">
+            <h3 style="font-family: var(--font-heading); font-size: 1.45rem; color: #fff; margin-bottom: 0.5rem;">
+              Step 2: Guest Details & Schedule
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.5rem;">
+              Enter your booking information for instant table confirmation.
+            </p>
+
+            <form id="reservationForm">
+              <input type="hidden" id="selectedCellInput" value="solitary">
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label" for="resName">Full Name *</label>
+                  <input type="text" id="resName" class="form-input" placeholder="e.g. Rahul Sharma" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="resPhone">Phone Number *</label>
+                  <input type="tel" id="resPhone" class="form-input" placeholder="10-digit mobile number" required>
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label" for="resDate">Reservation Date *</label>
+                  <input type="date" id="resDate" class="form-input" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="resTime">Time Slot *</label>
+                  <select id="resTime" class="form-select" required>
+                    <option value="" disabled selected>Select a time slot</option>
+                    <optgroup label="Lunch Slots">
+                      <option value="12:00 PM">12:00 PM - 01:30 PM</option>
+                      <option value="01:30 PM">01:30 PM - 03:00 PM</option>
+                      <option value="03:00 PM">03:00 PM - 04:30 PM</option>
+                    </optgroup>
+                    <optgroup label="Dinner Slots">
+                      <option value="06:30 PM">06:30 PM - 08:00 PM</option>
+                      <option value="08:00 PM">08:00 PM - 09:30 PM</option>
+                      <option value="09:30 PM">09:30 PM - 11:00 PM</option>
+                    </optgroup>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label" for="resGuests">Number of Guests *</label>
+                  <select id="resGuests" class="form-select" required>
+                    <option value="2">2 Guests (Couple / Pair)</option>
+                    <option value="4" selected>4 Guests (Small Group)</option>
+                    <option value="6">6 Guests (Family)</option>
+                    <option value="8">8 Guests (Large Group)</option>
+                    <option value="10">10 Guests (Celebration)</option>
+                    <option value="15+">15+ Guests (VIP / Party Hall)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="resOccasion">Occasion / Special Request</label>
+                  <select id="resOccasion" class="form-select">
+                    <option value="Casual Dining">Casual Dining / Tour Meal</option>
+                    <option value="Birthday Party">Birthday Celebration</option>
+                    <option value="Anniversary">Anniversary / Date</option>
+                    <option value="Family Reunion">Family Reunion</option>
+                    <option value="Corporate / Tour Group">Corporate / Tourist Group</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="resNotes">Any Special Instructions (Optional)</label>
+                <textarea id="resNotes" class="form-textarea" placeholder="E.g., Inmate photo props needed, birthday cake arrangement, quiet cell preference..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; padding: 1rem; font-size: 1.05rem;">
+                <i class="fa-solid fa-lock"></i>
+                <span>Confirm My Cell Booking</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         SECTION: ABOUT US
+         ------------------------------------------------------------------ -->
+    <section class="page-section" id="aboutSection" style="display: none;">
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-shield-cat"></i> Our Story</span>
+          <h2 class="section-title">Behind The Bars At <span>The Grand Jail</span></h2>
+          <p class="section-subtitle">
+            How a creative passion for hospitality created Rajgir's most unforgettable dining experience.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>A Historic City, A Thrilling Culinary Experience</h3>
+            <p>
+              Rajgir is known worldwide for its spiritual serenity, ancient hot springs, and magnificent ruins of Magadha. But we wanted to give travelers, tourists, and locals something thrilling and completely unique: <strong>The Grand Jail Restaurant</strong>.
+            </p>
+            <p>
+              Step into a life-like prison ambiance complete with iron cell doors, prisoner uniforms, handcuffs, warden service, and vintage prison lamps. Every corner is crafted to spark laughter, playful photo shoots, and family memories you will talk about for years.
+            </p>
+
+            <div class="about-features-list">
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>100% Halal & Pure Veg Hygiene</span>
+              </div>
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Slow Clay-Pot Handi Cooking</span>
+              </div>
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Complimentary Photo Props</span>
+              </div>
+              <div class="about-feature-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span>Superfast Doorstep Delivery</span>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="#menu" class="btn-primary"><i class="fa-solid fa-utensils"></i> View Our Menu</a>
+              <a href="#reserve" class="btn-secondary"><i class="fa-solid fa-lock"></i> Book Your Cell</a>
+            </div>
+          </div>
+
+          <div class="about-image-wrap">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="The Grand Jail Restaurant Ambiance" class="about-img-main" id="aboutMainImg">
+            <div class="about-stat-card">
+              <div class="about-stat-num">50,000+</div>
+              <div class="about-stat-label">Happy Inmates Served</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ Section inside About -->
+        <div style="margin-top: 5rem;">
+          <div class="section-title-wrap">
+            <span class="section-badge"><i class="fa-solid fa-circle-question"></i> FAQs</span>
+            <h2 class="section-title">Frequently Asked <span>Questions</span></h2>
+          </div>
+          <div id="faqContainer" style="max-width: 800px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+            <!-- Populated from data.js -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         SECTION: GALLERY
+         ------------------------------------------------------------------ -->
+    <section class="page-section" id="gallerySection" style="display: none;">
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-camera"></i> Visual Tour</span>
+          <h2 class="section-title">Inside <span>The Grand Jail</span></h2>
+          <p class="section-subtitle">
+            Explore our prison cells, mouth-watering delicacies, photo booth fun, and ambient lighting.
+          </p>
+        </div>
+
+        <!-- Gallery Filter Tabs -->
+        <div class="gallery-filter-tabs" id="galleryFilterTabs">
+          <button class="filter-btn active" data-cat="all">All Photos</button>
+          <button class="filter-btn" data-cat="ambiance">Jail Ambiance & Cells</button>
+          <button class="filter-btn" data-cat="food">Delicious Food</button>
+          <button class="filter-btn" data-cat="props">Photo Booth & Fun</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Populated from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------------
+         SECTION: CONTACT US & LOCATION
+         ------------------------------------------------------------------ -->
+    <section class="page-section" id="contactSection" style="display: none;">
+      <div class="section container">
+        <div class="section-title-wrap">
+          <span class="section-badge"><i class="fa-solid fa-map-pin"></i> Find Us</span>
+          <h2 class="section-title">Get In Touch & <span>Visit Us</span></h2>
+          <p class="section-subtitle">
+            Located in the heart of Rajgir. Reach out to order food, book an event, or locate our restaurant.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Info Box -->
+          <div class="contact-card-box">
+            <h3 style="font-family: var(--font-heading); color: #fff; font-size: 1.4rem;">
+              Restaurant Information
+            </h3>
+
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-detail-info">
+                <h4>Restaurant Address</h4>
+                <p id="contactAddress">The Grand Jail Restaurant, Station Road / Main Market, Rajgir, Nalanda, Bihar - 803116</p>
+                <a href="https://maps.app.goo.gl/Ts6pMgGVRvF25x2A7" target="_blank" rel="noopener" style="color: var(--accent-gold); font-size: 0.85rem; font-weight: 600; display: inline-block; margin-top: 0.3rem;">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in Google Maps
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-detail-info">
+                <h4>Call for Orders & Enquiries</h4>
+                <p><a href="tel:+919876543210" id="contactPhoneLink">+91 98765 43210</a></p>
+                <span style="font-size: 0.78rem; color: var(--text-muted);">Available 10:00 AM – 11:30 PM</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-detail-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="contact-detail-info">
+                <h4>Opening Hours</h4>
+                <p>Every Day: 10:00 AM – 11:30 PM</p>
+                <p style="font-size: 0.82rem; color: var(--accent-gold-light);">Home Delivery (within 3 km): 10:00 AM – 11:00 PM</p>
+              </div>
+            </div>
+
+            <div class="direct-buttons-group">
+              <a href="https://wa.me/919876543210?text=Hello%20The%20Grand%20Jail%20Restaurant,%20I%20would%20like%20to%20order%20food/inquire" target="_blank" rel="noopener" class="btn-whatsapp" id="contactWhatsAppBtn">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+              </a>
+              <a href="tel:+919876543210" class="btn-call" id="contactCallBtn">
+                <i class="fa-solid fa-phone"></i> Call Now
+              </a>
+            </div>
+
+            <!-- Inquiry Form inside Contact -->
+            <div style="border-top: 1px solid var(--border-color); padding-top: 1.5rem; margin-top: 0.5rem;">
+              <h4 style="color: #fff; font-size: 1.05rem; margin-bottom: 1rem;">Send Us a Message</h4>
+              <form id="contactForm">
+                <div class="form-group">
+                  <input type="text" id="contactName" class="form-input" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="tel" id="contactPhone" class="form-input" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                  <textarea id="contactMessage" class="form-textarea" placeholder="How can we help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+                  <i class="fa-solid fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-frame-wrap">
+            <iframe id="googleMapIframe" src="https://maps.google.com/maps?q=25.0406447,85.4200883+(The+Grand+Jail+Restaurant)&t=&z=17&ie=UTF8&iwloc=B&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="The Grand Jail Restaurant Location Rajgir"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       CART SLIDE-OVER DRAWER
+       ====================================================================== -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart">
+    <!-- Header -->
+    <div class="cart-header">
+      <div class="cart-header-title">
+        <i class="fa-solid fa-basket-shopping text-gold"></i>
+        <span>Your Lockup Tray</span>
+      </div>
+      <button class="cart-close-btn" id="closeCartBtn" aria-label="Close Cart">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <!-- Delivery Type Toggle -->
+    <div class="delivery-type-toggle">
+      <button class="type-btn active" id="deliveryTypeBtn" data-type="delivery">
+        <i class="fa-solid fa-motorcycle"></i> Door Delivery
+      </button>
+      <button class="type-btn" id="takeawayTypeBtn" data-type="takeaway">
+        <i class="fa-solid fa-bag-shopping"></i> Takeaway / Pickup
+      </button>
+    </div>
+
+    <!-- Items List Body -->
+    <div class="cart-items-body" id="cartItemsList">
+      <!-- Items dynamically populated from js/cart.js -->
+    </div>
+
+    <!-- Footer & Bill Breakdown -->
+    <div class="cart-footer">
+      <!-- Promo code field -->
+      <div class="promo-code-box" id="promoInputWrap">
+        <input type="text" id="promoCodeInput" class="promo-input" placeholder="Coupon (e.g. JAILBREAK)">
+        <button class="btn-apply-promo" id="applyPromoBtn">Apply</button>
+      </div>
+
+      <!-- Applied Promo Banner -->
+      <div class="promo-applied-tag" id="promoAppliedTag" style="display: none;">
+        <span><i class="fa-solid fa-tag"></i> <strong id="appliedPromoCodeText">JAILBREAK</strong> applied!</span>
+        <button id="removePromoBtn" style="background: none; color: var(--accent-red); cursor: pointer;"><i class="fa-solid fa-trash-can"></i></button>
+      </div>
+
+      <!-- Bill summary -->
+      <div class="bill-row">
+        <span>Item Subtotal</span>
+        <span id="billSubtotal">₹0</span>
+      </div>
+      <div class="bill-row" id="billDeliveryRow">
+        <span>Delivery Fee <small id="deliveryTag" style="color: var(--accent-green);">(Free above ₹499)</small></span>
+        <span id="billDeliveryFee">₹0</span>
+      </div>
+      <div class="bill-row" id="billDiscountRow" style="display: none; color: var(--accent-green);">
+        <span>Promo Discount</span>
+        <span id="billDiscount">- ₹0</span>
+      </div>
+      <div class="bill-row">
+        <span>Taxes & Restaurant Packaging</span>
+        <span id="billTaxes">₹0</span>
+      </div>
+      <div class="bill-row total">
+        <span>Grand Total</span>
+        <span id="billGrandTotal">₹0</span>
+      </div>
+
+      <!-- Checkout Button -->
+      <button class="btn-checkout" id="proceedCheckoutBtn" disabled>
+        <span>Proceed To Checkout</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       CHECKOUT MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="checkoutModalOverlay">
+    <div class="modal-container" style="max-width: 660px;">
+      <button class="modal-close-btn" id="closeCheckoutModalBtn" aria-label="Close Modal"><i class="fa-solid fa-xmark"></i></button>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span class="section-badge"><i class="fa-solid fa-shield"></i> Order Confirmation</span>
+        <h3 style="font-family: var(--font-heading); font-size: 1.5rem; color: #fff; margin-top: 0.35rem;">
+          Finalize Your Order & Payment
+        </h3>
+        <p style="color: var(--text-secondary); font-size: 0.88rem;">
+          Review your items, total amount payable, and provide delivery address in Rajgir.
+        </p>
+      </div>
+
+      <!-- User Status Banner in Checkout -->
+      <div id="checkoutUserStatusBanner" style="background: rgba(245, 158, 11, 0.08); border: 1px solid var(--border-gold); border-radius: var(--radius-md); padding: 0.75rem 1rem; margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between;">
+        <div id="checkoutUserText" style="font-size: 0.88rem; color: #fff;">
+          <i class="fa-solid fa-user-tag text-gold" style="margin-right: 0.4rem;"></i>
+          <span>Ordering as Guest</span>
+        </div>
+        <button type="button" id="checkoutAuthActionBtn" class="btn-auth-nav" style="padding: 0.35rem 0.85rem; font-size: 0.8rem;">
+          <i class="fa-solid fa-arrow-right-to-bracket"></i> Login
+        </button>
+      </div>
+
+      <!-- Live Order Breakdown & Amount To Be Paid Box -->
+      <div class="checkout-order-summary-box">
+        <div class="checkout-summary-title">
+          <span><i class="fa-solid fa-basket-shopping text-gold"></i> Items in Tray</span>
+          <span id="checkoutItemCountTag" style="font-size: 0.8rem; color: var(--accent-gold-light); font-weight: 700;">0 items</span>
+        </div>
+        
+        <!-- Selected Items List -->
+        <div class="checkout-items-list" id="checkoutItemsList">
+          <!-- Injected by JS -->
+        </div>
+
+        <!-- Bill Calculation Details -->
+        <div class="checkout-bill-breakdown">
+          <div class="checkout-bill-row">
+            <span>Items Subtotal:</span>
+            <strong id="checkoutSubtotal">₹0</strong>
+          </div>
+          <div class="checkout-bill-row" id="checkoutDeliveryRow">
+            <span>Delivery Charges:</span>
+            <strong id="checkoutDeliveryFee">₹0</strong>
+          </div>
+          <div class="checkout-bill-row">
+            <span>Taxes (5% GST) & Packaging:</span>
+            <strong id="checkoutTaxes">₹0</strong>
+          </div>
+          <div class="checkout-bill-row" id="checkoutDiscountRow" style="display: none; color: var(--accent-green);">
+            <span>Coupon Discount:</span>
+            <strong id="checkoutDiscount">- ₹0</strong>
+          </div>
+          <div class="checkout-grand-total-row">
+            <span>Total Amount to Pay:</span>
+            <span id="checkoutAmountPayable" class="checkout-total-val">₹0</span>
+          </div>
+        </div>
+      </div>
+
+      <form id="checkoutForm">
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="custName">Your Full Name *</label>
+            <input type="text" id="custName" class="form-input" placeholder="e.g. Anand Kumar" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="custPhone">Phone Number *</label>
+            <input type="tel" id="custPhone" class="form-input" placeholder="10-digit mobile number" maxlength="10" required>
+          </div>
+        </div>
+
+        <div class="form-group" id="deliveryAddressGroup">
+          <label class="form-label" for="custAddress">Delivery Address / Hotel / Room No. *</label>
+          <input type="text" id="custAddress" class="form-input" placeholder="Street, Hotel Name, Room No, or Landmark in Rajgir" required>
+        </div>
+
+        <div class="form-grid-2" id="deliveryLandmarkGroup">
+          <div class="form-group">
+            <label class="form-label" for="custLandmark">Landmark in Rajgir</label>
+            <input type="text" id="custLandmark" class="form-input" placeholder="e.g. Near Station, Bus Stand, Kund Market">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="custPincode">Pin Code</label>
+            <input type="text" id="custPincode" class="form-input" value="803116">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="custCookingNotes">Cooking / Packing Instructions</label>
+          <input type="text" id="custCookingNotes" class="form-input" placeholder="e.g. Make it medium spicy, include extra green chutney, cutlery needed">
+        </div>
+
+        <!-- Payment Mode Selection -->
+        <div class="form-group">
+          <label class="form-label">Payment Mode *</label>
+          <div class="payment-options-grid">
+            <label class="payment-radio-label selected" id="payCodLabel">
+              <input type="radio" name="paymentMethod" value="COD" checked style="accent-color: var(--accent-gold);">
+              <i class="fa-solid fa-money-bill-wave text-gold"></i>
+              <span>Cash on Delivery</span>
+            </label>
+            <label class="payment-radio-label" id="payUpiLabel">
+              <input type="radio" name="paymentMethod" value="UPI" style="accent-color: var(--accent-gold);">
+              <i class="fa-solid fa-qrcode text-gold"></i>
+              <span>UPI / QR on Delivery</span>
+            </label>
+          </div>
+
+          <!-- Dynamic Payment Mode Instructions -->
+          <div class="payment-info-box cod" id="codInfoBox">
+            <i class="fa-solid fa-hand-holding-dollar" style="font-size: 1.5rem; color: var(--accent-green);"></i>
+            <div>
+              <strong>Cash on Delivery:</strong>
+              <p style="margin: 0.15rem 0 0; font-size: 0.82rem;">Please keep exact amount of <strong id="codAmountText" style="color: #fff;">₹0</strong> ready to hand over to our delivery warden upon arrival.</p>
+            </div>
+          </div>
+
+          <div class="payment-info-box upi" id="upiInfoBox" style="display: none;">
+            <div style="font-weight: 700; color: #fff; margin-bottom: 0.35rem; display: flex; align-items: center; justify-content: space-between;">
+              <span><i class="fa-solid fa-qrcode text-gold"></i> Scan & Pay via any UPI App</span>
+              <span style="font-size: 0.75rem; color: var(--accent-green); background: rgba(16, 185, 129, 0.15); padding: 0.15rem 0.5rem; border-radius: 4px;">Instant Verification</span>
+            </div>
+            <div class="upi-details-grid">
+              <div class="upi-qr-card">
+                <img id="upiQrImage" src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=upi://pay?pa=grandjailrajgir@upi&pn=TheGrandJailRestaurant&am=0&cu=INR" alt="UPI QR Code">
+              </div>
+              <div class="upi-text-info">
+                <div>UPI ID: <span class="upi-id-badge">grandjailrajgir@upi</span></div>
+                <p style="color: var(--text-secondary); margin: 0.2rem 0; font-size: 0.8rem;">Supports Google Pay, PhonePe, Paytm, BHIM or any banking app.</p>
+                <div style="color: var(--accent-gold-light); font-weight: 700; font-size: 0.95rem;">Amount to Pay: <span id="upiAmountText">₹0</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; padding: 1rem; font-size: 1.05rem; margin-top: 1rem;">
+          <i class="fa-solid fa-lock"></i>
+          <span>Lock In & Place Order (<span id="btnPayAmountText">₹0</span>)</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       ORDER CONFIRMATION RECEIPT MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="orderSuccessModalOverlay">
+    <div class="modal-container" style="max-width: 540px;">
+      <button class="modal-close-btn" id="closeOrderSuccessModalBtn"><i class="fa-solid fa-xmark"></i></button>
+
+      <div class="receipt-header">
+        <div class="receipt-stamp">ORDER LOCKED IN! 🔒</div>
+        <h3 style="font-family: var(--font-heading); color: #fff; font-size: 1.5rem; margin-bottom: 0.35rem;">
+          Thank You For Your Order!
+        </h3>
+        <p style="color: var(--text-secondary); font-size: 0.9rem;">
+          Your order has been sent to our kitchen. Here is your receipt:
+        </p>
+        <div style="margin-top: 0.5rem;">
+          Order ID: <span class="receipt-order-id" id="receiptOrderId">#GJ-1234</span>
+        </div>
+      </div>
+
+      <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; margin: 1rem 0;">
+        <div style="display: flex; justify-content: space-between; font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+          <span>Customer: <strong id="receiptCustomerName" style="color: #fff;">-</strong></span>
+          <span>Phone: <strong id="receiptCustomerPhone" style="color: #fff;">-</strong></span>
+        </div>
+        <div style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+          <span>Address: <strong id="receiptCustomerAddress" style="color: #fff;">-</strong></span>
+        </div>
+        <div style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+          <span>Delivery Type: <strong id="receiptDeliveryType" style="color: var(--accent-gold);">Door Delivery</strong></span>
+        </div>
+        <div style="font-size: 0.88rem; color: var(--text-secondary);">
+          <span>Payment Mode: <strong id="receiptPaymentMode" style="color: var(--accent-green);">Cash on Delivery</strong></span>
+        </div>
+
+        <table class="receipt-items-table" id="receiptTable">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th style="text-align: center;">Qty</th>
+              <th style="text-align: right;">Amount</th>
+            </tr>
+          </thead>
+          <tbody id="receiptTableBody">
+            <!-- Dynamic inject -->
+          </tbody>
+        </table>
+
+        <div style="display: flex; justify-content: space-between; font-size: 1.15rem; font-weight: 800; color: var(--accent-gold-light); margin-top: 0.75rem;">
+          <span>Total Paid / Payable:</span>
+          <span id="receiptTotalAmount">₹0</span>
+        </div>
+      </div>
+
+      <div class="receipt-actions">
+        <a href="#" class="btn-whatsapp" id="receiptWhatsAppDispatchBtn" target="_blank" rel="noopener" style="text-align: center;">
+          <i class="fa-brands fa-whatsapp"></i> Send to WhatsApp
+        </a>
+        <button class="btn-call" id="receiptPrintBtn" onclick="window.print();">
+          <i class="fa-solid fa-print"></i> Print Receipt
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       RESERVATION CONFIRMATION MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="resSuccessModalOverlay">
+    <div class="modal-container" style="max-width: 500px; text-align: center;">
+      <button class="modal-close-btn" id="closeResSuccessModalBtn"><i class="fa-solid fa-xmark"></i></button>
+
+      <div style="width: 60px; height: 60px; border-radius: 50%; background: rgba(16, 185, 129, 0.15); border: 2px solid var(--accent-green); color: var(--accent-green); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin: 0 auto 1rem;">
+        <i class="fa-solid fa-check"></i>
+      </div>
+
+      <div class="receipt-stamp">CELL RESERVED! 🔑</div>
+      <h3 style="font-family: var(--font-heading); color: #fff; font-size: 1.45rem; margin: 0.5rem 0;">
+        Table Booking Confirmed
+      </h3>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">
+        Booking Reference: <strong class="receipt-order-id" id="resSuccessCode">#CELL-7492</strong>
+      </p>
+
+      <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; text-align: left; font-size: 0.9rem; line-height: 1.8; margin-bottom: 1.5rem;" id="resSuccessDetails">
+        <!-- Dynamic inject -->
+      </div>
+
+      <div style="display: flex; gap: 0.75rem;">
+        <a href="#" class="btn-whatsapp" id="resWhatsAppConfirmBtn" target="_blank" rel="noopener" style="flex: 1; text-align: center;">
+          <i class="fa-brands fa-whatsapp"></i> Notify On WhatsApp
+        </a>
+        <button class="btn-secondary" id="resSuccessDoneBtn" style="flex: 1;">
+          Done
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       GALLERY LIGHTBOX MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="lightboxModalOverlay" style="padding: 0;">
+    <div style="position: relative; max-width: 90vw; max-height: 90vh; display: flex; flex-direction: column; align-items: center;">
+      <button class="modal-close-btn" id="closeLightboxBtn" style="top: -45px; right: 0; position: absolute;"><i class="fa-solid fa-xmark"></i></button>
+
+      <img src="" alt="The Grand Jail Gallery" id="lightboxImage" style="max-width: 100%; max-height: 80vh; object-fit: contain; border-radius: var(--radius-md); border: 1px solid var(--border-gold); box-shadow: var(--shadow-lg);">
+
+      <div style="color: #fff; margin-top: 1rem; text-align: center;">
+        <h4 id="lightboxTitle" style="font-family: var(--font-heading); font-size: 1.25rem;"></h4>
+        <p id="lightboxCaption" style="color: var(--accent-gold-light); font-size: 0.9rem;"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       STICKY BOTTOM MOBILE CART BAR
+       ====================================================================== -->
+  <div class="mobile-cart-bar" id="mobileCartBar">
+    <div class="mobile-cart-info">
+      <span class="mobile-cart-count" id="mobileCartItemCount">0 items in tray</span>
+      <span class="mobile-cart-total" id="mobileCartGrandTotal">₹0</span>
+    </div>
+    <button class="btn-mobile-view-cart" id="mobileViewCartBtn">
+      <span>View Tray</span>
+      <i class="fa-solid fa-arrow-right"></i>
+    </button>
+  </div>
+
+  <!-- ======================================================================
+       CUSTOMER LOGIN MODAL (PHONE NUMBER AUTH)
+       ====================================================================== -->
+  <div class="modal-overlay" id="loginModalOverlay">
+    <div class="modal-container" style="max-width: 440px;">
+      <button class="modal-close-btn" id="closeLoginModalBtn" aria-label="Close Modal"><i class="fa-solid fa-xmark"></i></button>
+
+      <div style="text-align: center; margin-bottom: 1.5rem;">
+        <img src="images/logo.png" alt="The Grand Jail Restaurant Logo" style="width: 72px; height: 72px; border-radius: 50%; border: 2px solid var(--accent-gold); box-shadow: 0 0 20px rgba(245, 158, 11, 0.4); margin: 0 auto 0.85rem; object-fit: cover; display: block;">
+        <div class="section-badge"><i class="fa-solid fa-id-card"></i> Inmate Pass</div>
+        <h3 style="font-family: var(--font-heading); color: #fff; font-size: 1.4rem; margin-top: 0.25rem;">
+          Customer Login
+        </h3>
+        <p style="color: var(--text-secondary); font-size: 0.85rem;">
+          Enter your mobile number to view past orders, track deliveries, and manage your profile.
+        </p>
+      </div>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label class="form-label" for="loginPhone">Mobile Number *</label>
+          <div style="display: flex; gap: 0.5rem;">
+            <span style="background: #171b24; border: 1px solid rgba(255, 255, 255, 0.12); border-radius: var(--radius-md); padding: 0.75rem 0.85rem; color: #fff; font-weight: 700; font-size: 0.95rem;">+91</span>
+            <input type="tel" id="loginPhone" class="form-input" placeholder="10-digit mobile number" maxlength="10" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="loginName">Your Name (Optional)</label>
+          <input type="text" id="loginName" class="form-input" placeholder="e.g. Anand Kumar">
+        </div>
+
+        <div class="form-group" id="otpGroup">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+            <label class="form-label" style="margin-bottom: 0;" for="loginOtp">4-Digit Verification Code</label>
+            <span style="font-size: 0.75rem; color: var(--accent-gold); font-weight: 600;">(Demo OTP: 1234)</span>
+          </div>
+          <input type="text" id="loginOtp" class="form-input" placeholder="Enter 4-digit OTP (e.g. 1234)" value="1234" maxlength="4" required style="letter-spacing: 0.2em; font-weight: 700; font-size: 1.1rem; text-align: center;">
+        </div>
+
+        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; padding: 0.9rem; font-size: 1rem; margin-top: 0.5rem;">
+          <i class="fa-solid fa-lock-open"></i>
+          <span>Verify & Access Account</span>
+        </button>
+      </form>
+
+      <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid rgba(255, 255, 255, 0.08); text-align: center; font-size: 0.78rem; color: var(--text-muted);">
+        🔒 Your number is safe. Used only for order receipts and delivery updates in Rajgir.
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       CUSTOMER PROFILE & ORDER HISTORY MODAL
+       ====================================================================== -->
+  <div class="modal-overlay" id="profileModalOverlay">
+    <div class="modal-container" style="max-width: 620px;">
+      <button class="modal-close-btn" id="closeProfileModalBtn" aria-label="Close Modal"><i class="fa-solid fa-xmark"></i></button>
+
+      <!-- Profile Header -->
+      <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255, 255, 255, 0.08);">
+        <div style="width: 52px; height: 52px; border-radius: 50%; background: linear-gradient(135deg, var(--accent-gold), var(--accent-gold-dark)); color: #000; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: 800;" id="profileModalAvatar">
+          U
+        </div>
+        <div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: #fff; margin: 0;" id="profileModalName">
+            Guest User
+          </h3>
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 0.2rem;">
+            <span style="color: var(--accent-gold-light); font-size: 0.85rem; font-weight: 600;" id="profileModalPhone">+91 -</span>
+            <span style="font-size: 0.7rem; background: rgba(16, 185, 129, 0.15); color: var(--accent-green); border: 1px solid var(--accent-green); padding: 0.1rem 0.5rem; border-radius: var(--radius-full);">Active Inmate</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs: Profile vs Past Orders -->
+      <div class="profile-modal-tabs">
+        <button class="profile-tab-btn active" id="tabProfileDetailsBtn" data-target="profileDetailsTab">
+          <i class="fa-solid fa-user-pen"></i> My Profile & Address
+        </button>
+        <button class="profile-tab-btn" id="tabOrderHistoryBtn" data-target="orderHistoryTab">
+          <i class="fa-solid fa-clock-rotate-left"></i> Past Orders (<span id="userOrdersCount">0</span>)
+        </button>
+      </div>
+
+      <!-- Tab 1: Profile & Delivery Address Form -->
+      <div id="profileDetailsTab">
+        <form id="profileUpdateForm">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="profName">Full Name</label>
+              <input type="text" id="profName" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="profPhone">Registered Phone</label>
+              <input type="tel" id="profPhone" class="form-input" disabled style="opacity: 0.7; cursor: not-allowed;">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="profAddress">Default Delivery Address in Rajgir</label>
+            <input type="text" id="profAddress" class="form-input" placeholder="House / Hotel / Room No, Street in Rajgir">
+          </div>
+
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="profLandmark">Landmark in Rajgir</label>
+              <input type="text" id="profLandmark" class="form-input" placeholder="e.g. Near Railway Station, Bus Stand, Kund Market">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="profPincode">Pin Code</label>
+              <input type="text" id="profPincode" class="form-input" value="803116">
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+            <button type="submit" class="btn-primary" style="flex: 2; justify-content: center;">
+              <i class="fa-solid fa-floppy-disk"></i> Save Profile Details
+            </button>
+            <button type="button" class="btn-secondary" id="logoutBtn" style="flex: 1; justify-content: center; color: var(--accent-red); border-color: rgba(239, 68, 68, 0.4);">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i> Logout
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Tab 2: Past Orders History -->
+      <div id="orderHistoryTab" style="display: none;">
+        <div class="orders-history-list" id="orderHistoryList">
+          <!-- Injected dynamically by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Write a Review Modal -->
+  <div class="modal-overlay" id="writeReviewModalOverlay">
+    <div class="modal-container" style="max-width:500px;">
+      <button class="modal-close-btn" id="closeWriteReviewModalBtn" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+      <div style="text-align:center; margin-bottom:1.5rem;">
+        <div class="section-badge"><i class="fa-solid fa-star"></i> Share Your Experience</div>
+        <h3 style="font-family:var(--font-heading); color:#fff; font-size:1.4rem; margin-top:0.4rem;">Write a Review</h3>
+        <p style="color:var(--text-secondary); font-size:0.85rem;">Your feedback helps us serve you better!</p>
+      </div>
+      <form id="writeReviewForm">
+        <div class="form-group">
+          <label class="form-label">Your Rating *</label>
+          <div class="star-rating-select" id="starRatingSelect" style="display:flex; gap:0.5rem; font-size:1.8rem; cursor:pointer; justify-content:center; margin-bottom:0.5rem;">
+            <i class="fa-regular fa-star" data-rating="1" style="color:var(--accent-gold);"></i>
+            <i class="fa-regular fa-star" data-rating="2" style="color:var(--accent-gold);"></i>
+            <i class="fa-regular fa-star" data-rating="3" style="color:var(--accent-gold);"></i>
+            <i class="fa-regular fa-star" data-rating="4" style="color:var(--accent-gold);"></i>
+            <i class="fa-regular fa-star" data-rating="5" style="color:var(--accent-gold);"></i>
+          </div>
+          <input type="hidden" id="reviewRatingInput" value="0">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="reviewerName">Your Name *</label>
+          <input type="text" id="reviewerName" class="form-input" placeholder="e.g. Rahul Kumar" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="reviewText">Your Review *</label>
+          <textarea id="reviewText" class="form-textarea" placeholder="Share your dining experience at The Grand Jail..." rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%; justify-content:center; padding:0.9rem;">
+          <i class="fa-solid fa-paper-plane"></i> Submit Review
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       TOAST NOTIFICATION CONTAINER
+       ====================================================================== -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1rem;">
+            <img src="images/logo.png" alt="The Grand Jail Restaurant Logo" class="brand-logo-img">
+            <div class="brand-text-wrap">
+              <span class="brand-title">THE GRAND <span>JAIL</span></span>
+              <span class="brand-tagline">Restaurant • Rajgir</span>
+            </div>
+          </div>
+          <p>
+            Rajgir’s first and finest themed dining destination. Relish handi curries, fresh tandoor breads, Mughlai feasts, and regional Bihari delights inside authentic lockup cells.
+          </p>
+          <div class="social-icons-row">
+            <a href="https://maps.app.goo.gl/Ts6pMgGVRvF25x2A7" target="_blank" rel="noopener" class="social-icon-btn" title="Google Maps Location"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.instagram.com/the_grandjail_restaurant?igsh=MWdlaTVvc3BlbXB1OQ==" target="_blank" rel="noopener" class="social-icon-btn" title="Instagram @the_grandjail_restaurant"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/919798323383" target="_blank" rel="noopener" class="social-icon-btn" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu & Order</a>
+            <a href="#reserve">Reserve A Cell</a>
+            <a href="#about">About Restaurant</a>
+            <a href="#gallery">Photo Gallery</a>
+            <a href="#contact">Contact & Map</a>
+          </div>
+        </div>
+
+        <!-- Col 3: Popular Food -->
+        <div class="footer-col">
+          <h4>Signature Dishes</h4>
+          <div class="footer-links">
+            <a href="#menu">Grand Jail Handi Mutton</a>
+            <a href="#menu">Lockdown Butter Chicken</a>
+            <a href="#menu">Desi Ghee Litti Chokha</a>
+            <a href="#menu">Qaidi No. 420 Paneer Platter</a>
+            <a href="#menu">Bail Hyderabadi Biryani</a>
+            <a href="#menu">Hot Sizzling Brownie</a>
+          </div>
+        </div>
+
+        <!-- Col 4: Contact & Hours -->
+        <div class="footer-col">
+          <h4>Visit & Delivery</h4>
+          <p style="margin-bottom: 0.5rem;">
+            <i class="fa-solid fa-location-dot text-gold" style="margin-right: 0.4rem;"></i>
+            Station Road, Main Market, Rajgir, Nalanda, Bihar 803116
+          </p>
+          <p style="margin-bottom: 0.5rem;">
+            <i class="fa-solid fa-phone text-gold" style="margin-right: 0.4rem;"></i>
+            <a href="tel:09798323383" style="color:inherit;text-decoration:none;">09798323383</a>
+          </p>
+          <p>
+            <i class="fa-solid fa-clock text-gold" style="margin-right: 0.4rem;"></i>
+            Open Every Day: 10:00 AM – 11:30 PM
+          </p>
+          <div style="margin-top: 1rem;">
+            <span style="display: inline-block; padding: 0.3rem 0.8rem; background: rgba(245, 158, 11, 0.15); border: 1px solid var(--accent-gold); border-radius: var(--radius-full); font-size: 0.8rem; color: var(--accent-gold-light);">
+              ⚡ Free Delivery on orders > ₹499
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 The Grand Jail Restaurant, Rajgir. All Rights Reserved. Crafted for extraordinary dining.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
